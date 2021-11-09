@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 style="text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">Tabuada</h1>
+    </header>
+    <section>
+        <div>
+            <p>Número: <input type="number" name="num" id="txtn" class="ihv"></p>
+            <p>Tamanho: <input type="number" name="tam" id="txtam" class="ihv"></p>
+            <input type="button" value="Gerar Tabuada" onclick="tabuada()" style="margin: 10px;" class="ihv">
+        </div>
+        <div>
+            <select name="tabuada" id="seltab" size="10" style="box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); border: 10px groove black; border-radius: 10px;">
+                <option>Digite um número acima!</option>
+            </select>
+        </div>
+    </section>
+    <footer>
+        <p style="text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">&copy; Lucas Neves</p>
+    </footer> 
+    <script src="script.js"></script>
+</body>
+</html>
